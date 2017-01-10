@@ -248,6 +248,7 @@ sub _getSoftwaresList {
             URL_INFO_ABOUT   => encodeFromRegistry($data->{'/URLInfoAbout'}),
             UNINSTALL_STRING => encodeFromRegistry($data->{'/UninstallString'}),
             INSTALLDATE      => _dateFormat($data->{'/InstallDate'}),
+            SYSTEM_COMPONENT => hex2dec($data->{'/SystemComponent'}),
             VERSION_MINOR    => hex2dec($data->{'/MinorVersion'}),
             VERSION_MAJOR    => hex2dec($data->{'/MajorVersion'}),
             NO_REMOVE        => hex2dec($data->{'/NoRemove'}),
