@@ -68,7 +68,7 @@ sub encodeFromRegistry {
     my ($string) = @_;
 
     ## no critic (ExplicitReturnUndef)
-    return undef unless $string;
+    return undef unless defined($string);
 
     return $string if Encode::is_utf8($string);
 
