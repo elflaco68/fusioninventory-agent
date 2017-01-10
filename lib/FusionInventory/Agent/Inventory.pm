@@ -74,7 +74,7 @@ my %fields = (
     RUDDER           => [ qw/AGENT UUID HOSTNAME/ ],
     SLOTS            => [ qw/DESCRIPTION DESIGNATION NAME STATUS/ ],
     SOFTWARES        => [ qw/COMMENTS FILESIZE FOLDER FROM HELPLINK INSTALLDATE
-                            NAME NO_REMOVE RELEASE_TYPE PUBLISHER
+                            NAME NO_REMOVE RELEASE_TYPE SYSTEM_COMPONENT PUBLISHER
                             UNINSTALL_STRING URL_INFO_ABOUT VERSION
                             VERSION_MINOR VERSION_MAJOR GUID ARCH USERNAME
                             USERID/ ],
